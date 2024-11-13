@@ -11,7 +11,7 @@ Clone this repository and load its modules using Guix's [load-path](https://guix
 For example, to install `flipped-cat`, you could do the following:
 
 ``` shell
-git clone https://github.com/nairobilug/bingwa-wa-ufundi.git
+git clone https://git.sr.ht/~bonfacekilz/bingwa-wa-ufundi/
 cd bingwa-wa-ufundi
 guix install -L . flipped-cat
 ```
@@ -25,7 +25,7 @@ Add this channel to your list of guix channels located at `$HOME/.config/guix/ch
  (list
   (channel
    (name 'bingwa-wa-ufundi)
-   (url "https://github.com/nairobilug/bingwa-wa-ufundi")
+   (url "https://git.sr.ht/~bonfacekilz/bingwa-wa-ufundi/")
    (introduction
     (make-channel-introduction
      "7c67c3a9f299517bfc4ce8235628657898dd26b2"
